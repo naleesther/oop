@@ -1,7 +1,7 @@
 fun main(){
     var Esther =Human("Esther",20,59)
     println(Esther.weight)
-    Esther.foodWeight(1)
+    Esther.foodWeight(2)
     Esther.weight
     Esther.speak("Akirachix is the best")
     Esther.birthday(1)
@@ -12,13 +12,13 @@ fun main(){
 
 class Human(var name:String,var age:Int,var weight:Int){
     fun foodWeight(weightOfFood:Int){
-        var weightOfFood = 1
+        var weightOfFood = 2
         println("I am eating $weightOfFood kg of food")
         weight+=weightOfFood
         println(weight)
     }
     fun speak(speech:String){
-        println (speech)
+        println (speechy)
     }
     fun birthday(add:Int){
         age+=1
